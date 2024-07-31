@@ -7,7 +7,7 @@ function Nav() {
        <div className='w-full max-w-7xl  h-16  flex justify-between items-center px-3'>
         <div>
         <Link href="/">
-         KeyboardAsmr
+         KeyboardAsmrj
         </Link>
         </div>
         <div className='flex gap-5 text-neutral-400'>
