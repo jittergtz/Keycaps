@@ -3,19 +3,19 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div className='fixed z-50 top-0 w-full flex justify-center border-b border-neutral-700 bg-white/20 backdrop-blur-lg '>
+    <div className='fixed z-50 top-0 w-full flex justify-center border-b border-neutral-800 bg-black/20 backdrop-blur-lg '>
        <div className='w-full max-w-7xl  h-16  flex justify-between items-center px-3'>
         <div>
         <Link href="/">
          KeyboardAsmr
         </Link>
         </div>
-        <div className='flex gap-5'>
-        <Link href="/info">
-         info
+        <div className='flex gap-5 text-neutral-400'>
+        <Link href="/info" className='hover:text-neutral-200'>
+         Info
         </Link>
-        <Link href="/usage">
-         usage
+        <Link href="/usage" className='hover:text-neutral-200'>
+         Usage
         </Link>
         </div>
        </div>

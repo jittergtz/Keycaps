@@ -31,3 +31,37 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.textShadow {
+  text-shadow: rgb(108, 108, 108) 2px 5px;
+  font-size: 60px;
+}
+
+.embossed-text {
+  font-weight: bold;
+  padding: 5px;
+  text-shadow: 
+    -1px -1px 1px #0b0b0b14, 
+    2px 2px 1px #000000ab;
+}
+
+
+::selection {
+  background-color: #727272;
+
+}
+
+::-moz-selection {
+  background-color: #727272;
+ 
+}
+
+
+.strokeheadline {
+ font-family: sans-serif;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #4b4b4e;
+  z-index: 99;
+  
+}
