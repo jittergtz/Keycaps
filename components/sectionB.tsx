@@ -13,8 +13,9 @@ function SectionB() {
                <h1 className='text-lg text-neutral-500'>Section</h1>
                 <div className='md:w-64 w-28   h-[0.5px] bg-gradient-to-r from-neutral-400 to-black/70'></div>
             </div>
-
-           <video className='w-full max-w-3xl pointer-events-none border rounded-3xl bg-black border-neutral-900'
+           
+          <div className='flex flex-col items-center  w-full mt-6 '>
+           <video className='w-full max-w-3xl pointer-events-none border rounded-md p-1 bg-black border-neutral-900'
            src='./images/nature.mp4'
            loop
            autoPlay
@@ -22,10 +23,15 @@ function SectionB() {
            playsInline
            >
          </video>
-     
-      
-   
-        </div>   
+         <Image
+         src={"/images/stand.png"}
+         width={320}
+         height={460}
+         alt=''
+         className='h-[110px] w-[170px] md:w-[320px] md:h-[460px]'/>
+         </div>
+        
+    </div>
     </div>
   )
 }
