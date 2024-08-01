@@ -19,7 +19,7 @@ function Hero() {
 
          
         <div className='flex  h-full items-center justify-end gap-4 flex-col'>
-            <p className='text-white/70 z-50'>Download the latest version optimized for Macs till now</p>
+            <p className='text-white/70 z-40'>Download the latest version optimized for Macs till now</p>
            <Button/>
         </div>
     

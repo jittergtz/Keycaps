@@ -18,7 +18,7 @@ function SectionC() {
           alt='text'
           width={600}
           height={300}
-          className='p-4 md:w-[700px]'
+          className='p-4 md:w-[700px] pointer-events-none'
           quality={100}/>
           
    
