@@ -4,7 +4,7 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div className='fixed z-50 top-0 w-full flex justify-center border-b border-neutral-900 bg-black/60 backdrop-blur-lg '>
+    <div className='fixed z-50 top-0 w-full flex justify-center border-b border-neutral-900 bg-black/10 backdrop-blur-lg '>
        <div className='w-full max-w-7xl  h-16  flex justify-between items-center px-3'>
         <div>
         <Link href="/">

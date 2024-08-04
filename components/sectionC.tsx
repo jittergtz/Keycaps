@@ -14,7 +14,7 @@ function SectionC() {
 
       
           <Image
-          src={"/images/stamped-2.svg"}
+          src={"/images/keyCaps-stamped.svg"}
           alt='text'
           width={600}
           height={300}

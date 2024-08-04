@@ -11,7 +11,7 @@ import React from 'react'
 
 function page() {
   return (
-    <main className='min-h-screen w-full bg-black'>
+    <main className='min-h-screen overflow-hidden relative w-full bg-black'>
       <Nav/>
       <div className='flex justify-center pt-20 '>
       <AnimationHero/>

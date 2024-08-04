@@ -9,9 +9,9 @@ function Hero() {
        <div className='absolute'>
         <div className='h-[30rem] z-0 w-40 -rotate-45 rounded-full absolute bg-white/10 top-0 left-0 blur-3xl'></div>
         <h1 className='text-[77px] font-semibold leading-tight strokeheadline z-50 sm:text-[130px] lg:text-[180px] text-[#141415] '>
-        Keyboard
+        KeyCaps
        </h1>
-        <p className='text-[62px] leading-tight lg:text-7xl text-neutral-300'>
+        <p className='text-[62px] leading-tight lg:text-6xl text-neutral-300/90'>
         Asmr
         </p>
         </div>

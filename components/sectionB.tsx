@@ -15,20 +15,20 @@ function SectionB() {
             </div>
            
           <div className='flex flex-col  items-center  w-full mt-6 '>
-           <video className='w-full object-cover overflow-hidden  sm:h-[400px]  md:h-[490px] max-w-4xl pointer-events-none border rounded-lg p-3 bg-black border-neutral-900'
+           <video className='w-full object-cover overflow-hidden  sm:h-[400px]  md:h-[490px] max-w-4xl pointer-events-none border rounded-lg p-1.5 md:p-3 bg-black border-neutral-900'
            loop
            autoPlay
            muted
            playsInline
            >
-            <source type='video/mp4'  src='/images/porsche.mp4' />
+            <source type='video/mp4'  src='/images/demo.mp4' />
          </video>
          <Image
          src={"/images/stand.png"}
          width={320}
          height={460}
          alt=''
-         className='h-[110px] pointer-events-none w-[130px] sm:w-[220px] sm:h-[120px] md:w-[300px] md:h-[170px]'/>
+         className='h-[80px] pointer-events-none w-[130px] sm:w-[220px] sm:h-[120px] md:w-[300px] md:h-[170px]'/>
          </div>
 
          <div className='mt-10 w-full max-w-4xl flex flex-col gap-5 sm:gap-0 sm:flex-row sm:justify-between'>
