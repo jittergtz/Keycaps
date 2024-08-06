@@ -8,11 +8,11 @@ function Hero() {
         <div className='max-w-7xl w-full'>
        <div className='absolute'>
         <div className='h-[30rem] z-0 w-40 -rotate-45 rounded-full absolute bg-white/10 top-0 left-0 blur-3xl'></div>
-        <h1 className='text-[77px] font-semibold leading-tight strokeheadline z-50 sm:text-[130px] lg:text-[180px] text-[#141415] '>
+        <h1 className='text-[77px] font-semibold leading-tight strokeheadline z-50 sm:text-[130px]  lg:text-[180px] text-[#000000] '>
         KeyCaps
        </h1>
-        <p className='text-[62px] leading-tight lg:text-6xl text-neutral-300/90'>
-        Asmr
+        <p className='lg:text-[52px] md:w-96 tracking-wide  text-[32px] lg:text-6xl text-neutral-300/90'>
+        Experience the Perfect Typing Symphony
         </p>
         </div>
  

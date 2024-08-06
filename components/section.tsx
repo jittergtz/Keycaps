@@ -15,13 +15,13 @@ function Section() {
           <BentoBox
            Headline={'Bento Heading'}
            Description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cumque voluptates ipsa vero dicta dolore incidunt. Sequi possimus hic magni, molestiae necessitatibus optio voluptatibus provident totam minus fugiat dolores modi'}
-           image={'/images/red.jpg'}/>
+           image={'/images/singapur.webp'}/>
 
          <BentoBox
            Headline={'Bento Heading 2'}
            Description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cumque voluptates ipsa vero dicta dolore incidunt. Sequi possimus hic magni, molestiae necessitatibus optio voluptatibus provident totam minus fugiat dolores modi'}
            image={'/images/singapur.webp'}/>
-       
+        
        
         </div>   
     </div>
