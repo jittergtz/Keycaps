@@ -61,7 +61,7 @@ body {
 .strokeheadline {
  font-family: sans-serif;
   -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #4b4b4e;
+  -webkit-text-stroke-color: #838383;
   z-index: 99;
   
 }
